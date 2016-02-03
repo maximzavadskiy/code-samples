@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>JHELUMPC</Machine>
+    <WindowsUser>maisyed</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\default.html">
+      <PackagePath>default.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\images\Ammo\rock_ammo.png">
+      <PackagePath>images\Ammo\rock_ammo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\images\Backgrounds\blank.png">
+      <PackagePath>images\Backgrounds\blank.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\images\Backgrounds\CLASS - Copy.png">
+      <PackagePath>images\Backgrounds\CLASS - Copy.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\images\Backgrounds\cloud1.png">
+      <PackagePath>images\Backgrounds\cloud1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\images\Backgrounds\cloud2.png">
+      <PackagePath>images\Backgrounds\cloud2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\images\Backgrounds\defeat.png">
+      <PackagePath>images\Backgrounds\defeat.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\images\Backgrounds\gameplay_screen.png">
+      <PackagePath>images\Backgrounds\gameplay_screen.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\images\Backgrounds\instructions.png">
+      <PackagePath>images\Backgrounds\instructions.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\images\Backgrounds\mountain.png">
+      <PackagePath>images\Backgrounds\mountain.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\images\Backgrounds\sky.png">
+      <PackagePath>images\Backgrounds\sky.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\images\Backgrounds\title_screen 30x30.png">
+      <PackagePath>images\Backgrounds\title_screen 30x30.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\images\Backgrounds\title_screen 310x150.png">
+      <PackagePath>images\Backgrounds\title_screen 310x150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\images\Backgrounds\title_screen.png">
+      <PackagePath>images\Backgrounds\title_screen.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\images\Backgrounds\title_screen150x150.png">
+      <PackagePath>images\Backgrounds\title_screen150x150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\images\Backgrounds\title_screen_620x300.png">
+      <PackagePath>images\Backgrounds\title_screen_620x300.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\images\Backgrounds\victory.png">
+      <PackagePath>images\Backgrounds\victory.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\images\Bee.png">
+      <PackagePath>images\Bee.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\images\Catapults\Blue\blueDestroyed\blueCatapult_destroyed.png">
+      <PackagePath>images\Catapults\Blue\blueDestroyed\blueCatapult_destroyed.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\images\Catapults\Blue\blueFire\blueCatapult_fire.png">
+      <PackagePath>images\Catapults\Blue\blueFire\blueCatapult_fire.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\images\Catapults\Blue\blueIdle\blueIdle.png">
+      <PackagePath>images\Catapults\Blue\blueIdle\blueIdle.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\images\Catapults\Blue\bluePullback\blueCatapult_Pullback.png">
+      <PackagePath>images\Catapults\Blue\bluePullback\blueCatapult_Pullback.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\images\Catapults\Fire_Miss\fire_miss.png">
+      <PackagePath>images\Catapults\Fire_Miss\fire_miss.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\images\Catapults\Hit_Smoke\smoke.png">
+      <PackagePath>images\Catapults\Hit_Smoke\smoke.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\images\Catapults\Red\redDestroyed\redCatapult_destroyed.png">
+      <PackagePath>images\Catapults\Red\redDestroyed\redCatapult_destroyed.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\images\Catapults\Red\redFire\redCatapult_fire.png">
+      <PackagePath>images\Catapults\Red\redFire\redCatapult_fire.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\images\Catapults\Red\redIdle\redIdle.png">
+      <PackagePath>images\Catapults\Red\redIdle\redIdle.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\images\Catapults\Red\redPullback\redCatapult_Pullback.png">
+      <PackagePath>images\Catapults\Red\redPullback\redCatapult_Pullback.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\images\HUD\ammoType.png">
+      <PackagePath>images\HUD\ammoType.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\images\HUD\Arrow.png">
+      <PackagePath>images\HUD\Arrow.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\images\HUD\hudBackground.png">
+      <PackagePath>images\HUD\hudBackground.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\images\HUD\windArrow.png">
+      <PackagePath>images\HUD\windArrow.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\images\logo.png">
+      <PackagePath>images\logo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\images\smalllogo.png">
+      <PackagePath>images\smalllogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\images\splashscreen.png">
+      <PackagePath>images\splashscreen.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\images\storelogo.png">
+      <PackagePath>images\storelogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\images\Catapults\AnimationsDef.xml">
+      <PackagePath>images\Catapults\AnimationsDef.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\images\grass.jpg">
+      <PackagePath>images\grass.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\js\CreateJS\easeljs-0.5.0.min.js">
+      <PackagePath>js\CreateJS\easeljs-0.5.0.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\js\CreateJS\easeljs-NEXT.min.js">
+      <PackagePath>js\CreateJS\easeljs-NEXT.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\js\CreateJS\preloadjs-NEXT.min.js">
+      <PackagePath>js\CreateJS\preloadjs-NEXT.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\sounds\BoulderHit.wav">
+      <PackagePath>sounds\BoulderHit.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\sounds\CatapultExplosion.wav">
+      <PackagePath>sounds\CatapultExplosion.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\sounds\CatapultFire.wav">
+      <PackagePath>sounds\CatapultFire.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\sounds\Lose.wav">
+      <PackagePath>sounds\Lose.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\sounds\RopeStretch.wav">
+      <PackagePath>sounds\RopeStretch.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\sounds\Win.wav">
+      <PackagePath>sounds\Win.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\">
+      <Name>Microsoft.WinJS.1.0</Name>
+      <Version>1.0.8514.0</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.1.0, MinVersion=1.0.8514.0</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\Microsoft.WinJS.1.0.appx</AppxLocation>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

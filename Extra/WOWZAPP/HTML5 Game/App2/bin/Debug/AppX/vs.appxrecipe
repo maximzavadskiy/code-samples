@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>JHELUMPC</Machine>
+    <WindowsUser>maisyed</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>8608E691750302E992F1F4DEC288535B53E66BEF099DDCB262D3F471D13C21FA</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>782ada9b-a8ae-40e7-a7c9-be9c7d5e173f_1.0.0.0_neutral__rwwsajfgb4a46</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>782ada9b-a8ae-40e7-a7c9-be9c7d5e173f_rwwsajfgb4a46!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>782ada9b-a8ae-40e7-a7c9-be9c7d5e173f</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=maisyed</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-11-06T16:09:42.001</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\default.html">
+      <PackagePath>default.html</PackagePath>
+      <Modified>2012-11-07T00:15:38.229</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\images\Ammo\rock_ammo.png">
+      <PackagePath>images\Ammo\rock_ammo.png</PackagePath>
+      <Modified>2010-08-19T09:11:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\images\Backgrounds\blank.png">
+      <PackagePath>images\Backgrounds\blank.png</PackagePath>
+      <Modified>2010-08-19T09:11:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\images\Backgrounds\CLASS - Copy.png">
+      <PackagePath>images\Backgrounds\CLASS - Copy.png</PackagePath>
+      <Modified>2012-10-30T12:50:39.749</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\images\Backgrounds\cloud1.png">
+      <PackagePath>images\Backgrounds\cloud1.png</PackagePath>
+      <Modified>2010-08-19T09:11:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\images\Backgrounds\cloud2.png">
+      <PackagePath>images\Backgrounds\cloud2.png</PackagePath>
+      <Modified>2010-08-19T09:11:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\images\Backgrounds\defeat.png">
+      <PackagePath>images\Backgrounds\defeat.png</PackagePath>
+      <Modified>2010-08-19T09:11:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\images\Backgrounds\gameplay_screen.png">
+      <PackagePath>images\Backgrounds\gameplay_screen.png</PackagePath>
+      <Modified>2010-08-19T09:11:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\images\Backgrounds\instructions.png">
+      <PackagePath>images\Backgrounds\instructions.png</PackagePath>
+      <Modified>2010-08-19T09:11:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\images\Backgrounds\mountain.png">
+      <PackagePath>images\Backgrounds\mountain.png</PackagePath>
+      <Modified>2010-08-19T09:11:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\images\Backgrounds\sky.png">
+      <PackagePath>images\Backgrounds\sky.png</PackagePath>
+      <Modified>2010-08-19T09:11:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\images\Backgrounds\title_screen 30x30.png">
+      <PackagePath>images\Backgrounds\title_screen 30x30.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-11-04T09:26:26.558</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\images\Backgrounds\title_screen 310x150.png">
+      <PackagePath>images\Backgrounds\title_screen 310x150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-11-04T09:25:48.693</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\images\Backgrounds\title_screen.png">
+      <PackagePath>images\Backgrounds\title_screen.png</PackagePath>
+      <Modified>2010-08-19T09:11:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\images\Backgrounds\title_screen150x150.png">
+      <PackagePath>images\Backgrounds\title_screen150x150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-11-04T09:25:06.837</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\images\Backgrounds\title_screen_620x300.png">
+      <PackagePath>images\Backgrounds\title_screen_620x300.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-11-04T12:10:00.489</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\images\Backgrounds\victory.png">
+      <PackagePath>images\Backgrounds\victory.png</PackagePath>
+      <Modified>2010-08-19T09:11:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\images\Bee.png">
+      <PackagePath>images\Bee.png</PackagePath>
+      <Modified>2012-11-06T15:40:33.382</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\images\Catapults\Blue\blueDestroyed\blueCatapult_destroyed.png">
+      <PackagePath>images\Catapults\Blue\blueDestroyed\blueCatapult_destroyed.png</PackagePath>
+      <Modified>2010-08-19T09:11:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\images\Catapults\Blue\blueFire\blueCatapult_fire.png">
+      <PackagePath>images\Catapults\Blue\blueFire\blueCatapult_fire.png</PackagePath>
+      <Modified>2010-08-19T09:11:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\images\Catapults\Blue\blueIdle\blueIdle.png">
+      <PackagePath>images\Catapults\Blue\blueIdle\blueIdle.png</PackagePath>
+      <Modified>2010-08-19T09:11:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\images\Catapults\Blue\bluePullback\blueCatapult_Pullback.png">
+      <PackagePath>images\Catapults\Blue\bluePullback\blueCatapult_Pullback.png</PackagePath>
+      <Modified>2010-08-19T09:11:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\images\Catapults\Fire_Miss\fire_miss.png">
+      <PackagePath>images\Catapults\Fire_Miss\fire_miss.png</PackagePath>
+      <Modified>2010-08-19T09:11:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\images\Catapults\Hit_Smoke\smoke.png">
+      <PackagePath>images\Catapults\Hit_Smoke\smoke.png</PackagePath>
+      <Modified>2010-08-19T09:11:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\images\Catapults\Red\redDestroyed\redCatapult_destroyed.png">
+      <PackagePath>images\Catapults\Red\redDestroyed\redCatapult_destroyed.png</PackagePath>
+      <Modified>2010-08-19T09:11:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\images\Catapults\Red\redFire\redCatapult_fire.png">
+      <PackagePath>images\Catapults\Red\redFire\redCatapult_fire.png</PackagePath>
+      <Modified>2010-08-19T09:11:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\images\Catapults\Red\redIdle\redIdle.png">
+      <PackagePath>images\Catapults\Red\redIdle\redIdle.png</PackagePath>
+      <Modified>2010-08-19T09:11:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\images\Catapults\Red\redPullback\redCatapult_Pullback.png">
+      <PackagePath>images\Catapults\Red\redPullback\redCatapult_Pullback.png</PackagePath>
+      <Modified>2010-08-19T09:11:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\images\HUD\ammoType.png">
+      <PackagePath>images\HUD\ammoType.png</PackagePath>
+      <Modified>2010-08-19T09:11:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\images\HUD\Arrow.png">
+      <PackagePath>images\HUD\Arrow.png</PackagePath>
+      <Modified>2010-08-19T09:11:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\images\HUD\hudBackground.png">
+      <PackagePath>images\HUD\hudBackground.png</PackagePath>
+      <Modified>2010-08-19T09:11:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\images\HUD\windArrow.png">
+      <PackagePath>images\HUD\windArrow.png</PackagePath>
+      <Modified>2010-08-19T09:11:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\images\logo.png">
+      <PackagePath>images\logo.png</PackagePath>
+      <Modified>2012-07-26T18:30:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\images\smalllogo.png">
+      <PackagePath>images\smalllogo.png</PackagePath>
+      <Modified>2012-07-26T18:30:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\images\splashscreen.png">
+      <PackagePath>images\splashscreen.png</PackagePath>
+      <Modified>2012-07-26T18:30:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\images\storelogo.png">
+      <PackagePath>images\storelogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-07-26T18:30:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\images\Catapults\AnimationsDef.xml">
+      <PackagePath>images\Catapults\AnimationsDef.xml</PackagePath>
+      <Modified>2010-08-19T09:11:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\images\grass.jpg">
+      <PackagePath>images\grass.jpg</PackagePath>
+      <Modified>2012-11-06T15:40:37.416</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\js\CreateJS\easeljs-0.5.0.min.js">
+      <PackagePath>js\CreateJS\easeljs-0.5.0.min.js</PackagePath>
+      <Modified>2012-11-04T09:58:00.422</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\js\CreateJS\easeljs-NEXT.min.js">
+      <PackagePath>js\CreateJS\easeljs-NEXT.min.js</PackagePath>
+      <Modified>2012-11-04T09:58:00.466</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\js\CreateJS\preloadjs-NEXT.min.js">
+      <PackagePath>js\CreateJS\preloadjs-NEXT.min.js</PackagePath>
+      <Modified>2012-11-04T09:56:21.831</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+      <Modified>2012-11-07T00:01:42.891</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2012-07-26T18:30:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\sounds\BoulderHit.wav">
+      <PackagePath>sounds\BoulderHit.wav</PackagePath>
+      <Modified>2010-08-19T09:11:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\sounds\CatapultExplosion.wav">
+      <PackagePath>sounds\CatapultExplosion.wav</PackagePath>
+      <Modified>2010-08-19T09:11:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\sounds\CatapultFire.wav">
+      <PackagePath>sounds\CatapultFire.wav</PackagePath>
+      <Modified>2010-08-19T09:11:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\sounds\Lose.wav">
+      <PackagePath>sounds\Lose.wav</PackagePath>
+      <Modified>2010-08-19T09:11:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\sounds\RopeStretch.wav">
+      <PackagePath>sounds\RopeStretch.wav</PackagePath>
+      <Modified>2010-08-19T09:11:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\sounds\Win.wav">
+      <PackagePath>sounds\Win.wav</PackagePath>
+      <Modified>2010-08-19T09:11:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maisyed\Documents\Visual Studio 2012\Projects\HTML5 Game\App2\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2012-11-06T16:09:41.324</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\">
+      <Name>Microsoft.WinJS.1.0</Name>
+      <Version>1.0.8514.0</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.1.0, MinVersion=1.0.8514.0</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\Microsoft.WinJS.1.0.appx</AppxLocation>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

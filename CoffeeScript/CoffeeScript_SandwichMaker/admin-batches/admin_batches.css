@@ -1,0 +1,131 @@
+.batch-item-day-group {
+	margin-bottom: 2em; 
+	margin-top:	0em;
+}
+
+.batch-main-section-title {
+	margin-top: 0;
+	margin-bottom: 1.5em;
+}
+
+.admin-batch-tile {
+	width: 8em;
+
+	padding: 0.5em;
+}
+
+.admin-item-batch-name-container {
+	padding-top:1em;
+}
+
+.admin-production-time-container {
+	height: 5em;
+}
+
+.admin-production-time-container p {
+	font-size: 25pt;
+}
+
+.admin-batch-size {
+	color: grey;
+}
+
+.buttons-container {
+	display: inline-block;
+}
+
+.admin-batch-tile button {
+	display: none;
+	margin-top: 2em;
+}
+
+.admin-batch-tile button.btn-tile-edit {
+	margin-left: 1em;
+}
+
+.admin-batch-tile button.btn-tile-delete {
+	margin-right: 1em;
+}
+
+.admin-batch-tile:hover button {
+	display: inherit;
+}
+
+.admin-batch-tile:hover .admin-item-batch-name-container {
+	display: none;
+}
+
+.admin-batch-tile-bottom {
+	display: inline-block;
+	vertical-align: bottom;
+
+	height: 4em;
+	width: 100%;
+
+	padding-top:1em;
+	position:relative;
+}
+
+
+
+.form-horizontal .control-label {
+	width: 13em;
+}
+
+.control-group .controls {
+	margin-left: 14.5em;
+}
+
+.batch-product-group {
+	margin-left: 2em;
+}
+
+.controls h1 {
+	padding-left: 0;
+	margin-left: 0;
+	font-size: 14pt;
+} 
+
+.controls h1:not(:first-child) {
+	margin-top: 2em;
+}
+
+#products select {
+	width: 15em;
+}
+
+.edit-batch-product-amount {
+	width:3em;
+}
+
+.batch-product-time-group .btn-exclude  {
+	margin-left: 2em;
+}
+
+.batch-product-time-group span {
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+}
+
+.batch-product-time-group .btn-add-product {
+	margin-top: 2em;
+}
+
+.batch-product-entries {
+	margin-bottom: 1em;
+
+	-webkit-animation: appear 0.5s;
+	-webkit-animation-timing-function: ease;
+	-webkit-transform-origin:left top;
+}
+
+@-webkit-keyframes appear
+{
+	from { -webkit-transform: scaleY(0); height: 0px; opacity: 0;}
+	to { -webkit-transform: scaleY(1); height: 2.1em; opacity: 1;}
+}
+
+.batch-edit-form-actions {
+  margin-top: 5em;
+  margin-left: 27em;
+}

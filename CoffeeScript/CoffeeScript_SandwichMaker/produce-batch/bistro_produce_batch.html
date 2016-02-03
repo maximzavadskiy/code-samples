@@ -1,0 +1,103 @@
+<template name='bistro_produce_batch'>
+<body>
+	<div class='bistro'>
+		{{#unless isAdjustPage}}
+			<header>
+				<hgroup>
+					<h2>  Batch Anfertigen  </h2>
+					<h3 class='step-no'> Schritt 1 </h3>
+					<h4 class='step-description'> Wählen Sie ein Batch </h4>
+				</hgroup>
+			</header>
+
+			<main class='produce-batch-page'>
+				{{#each batchesByDays}}
+					<section>
+						<h4 class='day-range'>  {{#if days}} {{days}} {{else}} Keine Produktionstage gesetz! {{/if}} </h4>
+						<ul>
+							{{#each batches}}
+								{{!-- cause it's just links to the batches basically --}}
+								<li> 
+									<a class='batch-item' rel='next'>
+										<p class='production-time'> {{productionTime.h}} Uhr </p>
+										<p class='size'> mit {{batchSize}} Stk  </p>
+										<p class='name'> {{ name }} </p>
+									</a>
+								</li>
+							{{/each}}
+						</ul>
+					</section>
+				{{/each}}
+			</main>
+			
+			<nav>
+				<div class='bottom-menu-bar'>
+					<button id='btn-back-to-bistro' class='left vertical-center btn btn-large'>
+						<i class=' icon-chevron-left'></i> Zurück
+					</button>
+					<p class='right vertical-center'> Wählen Sie ein Batch bitte </p>
+			</div>
+			</nav>
+		{{/unless}}
+
+		{{#if isAdjustPage}}
+			<header>
+				<hgroup>
+					<h2>  Batch Anfertigen  </h2>
+					<hgroup class='header-detailes'>
+						<div class='left'>
+							<h3 class='step-no'> Schritt 2 </h3>
+							<h4 class='step-description'> Ändern Sie das Batch </h4>
+						</div>
+						<span class='batch-info'> 
+							<h4 class='batch-day-time'> {{batchProduceDaysStr}} {{batchProduceHour}} Uhr </h4>
+							<h5 class='batch-name'> {{batchName}} </h5>
+						</span>
+					</hgroup>
+				</hgroup>
+			</header>
+				
+			<main class='produce-batch-page'>
+				<form>
+					{{#each productLifetimes}}
+					<!-- <div class='column-wrapper'> -->
+						<fieldset class='products-group-section'>
+							<legend> <h4 class='lifetime'>  {{hours}} Std </h4> </legend>
+
+							{{#each batchProductsWithLifetime hours}}
+								<fieldset class='product-controls' id="{{product._id}}">
+									
+									<input type='checkbox' class='chbx-product-include left' id='{{product._id}}-enabled' checked={{#unless productDisabled}} 'true' {{/unless}}><!--   -->
+									
+									<label class='product-name left'> {{product.name}}  </label>  <!-- for='{{product._id}}-enabled'  -->
+									<div class="input-append input-prepend right">
+										<button class="btn btn-dec" ><i class='icon-minus'></i></button>
+										<input type='number' inputmode='numeric' pattern="\d*" class='edit-batch-product-amount input-lg input-large ' value='{{productAmount}}' id='{{product._id}}' min='0' >
+										<button class="btn btn-inc"><i class=' icon-plus'></i></button>
+									</div>
+
+									<!-- TODO chage hidden to data - probably better style -->
+									<input type='hidden' class='batch-product-id' value='{{product._id}}'>
+								</fieldset>
+							{{/each}}
+						</fieldset>
+					<!-- </div> -->
+					{{/each}}
+				</form>
+			</main>
+			<nav>
+				<div class='bottom-menu-bar'>
+					<button id='btn-back-to-batch-select' class='left vertical-center btn btn-large'>
+						<i class=' icon-chevron-left'></i> Zurück
+					</button>
+
+					<!-- since using float actual element order reversed -->
+					<button id='btn-produce' class='right vertical-center btn btn-large btn-primary'> Anfertigen </button>
+	
+					<span class='total-amount right vertical-center'> Gesamtbetrag <b>{{totalProducts}} </b> Stk </span>
+				</div>
+			</nav>
+		{{/if}}
+	</div>
+</body>
+</template>

@@ -1,0 +1,13 @@
+C:\Users\maxim\Documents\WOWZApp\App2\App2\bin\Debug\resources.pri
+C:\Users\maxim\Documents\WOWZApp\App2\App2\bin\Debug\AppxManifest.xml
+C:\Users\maxim\Documents\WOWZApp\App2\App2\bin\Debug\App2.build.appxrecipe
+C:\Users\maxim\Documents\WOWZApp\App2\App2\bld\Debug\priconfig.xml.intermediate
+C:\Users\maxim\Documents\WOWZApp\App2\App2\bld\Debug\layout.resfiles.intermediate
+C:\Users\maxim\Documents\WOWZApp\App2\App2\bld\Debug\resources.resfiles.intermediate
+C:\Users\maxim\Documents\WOWZApp\App2\App2\bld\Debug\pri.resfiles.intermediate
+C:\Users\maxim\Documents\WOWZApp\App2\App2\bld\Debug\priconfig.xml
+C:\Users\maxim\Documents\WOWZApp\App2\App2\bld\Debug\layout.resfiles
+C:\Users\maxim\Documents\WOWZApp\App2\App2\bld\Debug\resources.resfiles
+C:\Users\maxim\Documents\WOWZApp\App2\App2\bld\Debug\pri.resfiles
+C:\Users\maxim\Documents\WOWZApp\App2\App2\bld\Debug\LanguageQualifiers.txt
+C:\Users\maxim\Documents\WOWZApp\App2\App2\bld\Debug\ProjectArchitectures.txt

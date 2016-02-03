@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>MAXIMPC</Machine>
+    <WindowsUser>maxim</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>BF668B0FA7C8EB82C1B3BD28CB12CB74C08EC5E3703415996C48F6D1932DEAAB</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>782ada9b-a8ae-40e7-a7c9-be9c7d5e173f_1.0.0.1_neutral__rwwsajfgb4a46</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>782ada9b-a8ae-40e7-a7c9-be9c7d5e173f_rwwsajfgb4a46!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>782ada9b-a8ae-40e7-a7c9-be9c7d5e173f</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=maisyed</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.1</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-11-10T14:30:04.534</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\css\homePage.css">
+      <PackagePath>css\homePage.css</PackagePath>
+      <Modified>2012-11-10T08:43:27.003</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2012-11-10T04:48:32.516</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\default.html">
+      <PackagePath>default.html</PackagePath>
+      <Modified>2012-11-10T11:39:22.900</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\html\homePage.html">
+      <PackagePath>html\homePage.html</PackagePath>
+      <Modified>2012-11-10T08:43:27.019</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\fireguyfiring.png">
+      <PackagePath>fireguyfiring.png</PackagePath>
+      <Modified>2012-11-10T11:56:31.798</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\images\Ammo\rock_ammo.png">
+      <PackagePath>images\Ammo\rock_ammo.png</PackagePath>
+      <Modified>2012-11-09T17:08:51.215</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\images\Backgrounds\blank.png">
+      <PackagePath>images\Backgrounds\blank.png</PackagePath>
+      <Modified>2012-11-09T17:08:51.199</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\images\Backgrounds\CLASS - Copy.png">
+      <PackagePath>images\Backgrounds\CLASS - Copy.png</PackagePath>
+      <Modified>2012-11-09T17:09:00.028</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\images\Backgrounds\cloud1.png">
+      <PackagePath>images\Backgrounds\cloud1.png</PackagePath>
+      <Modified>2012-11-09T17:08:51.496</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\images\Backgrounds\cloud2.png">
+      <PackagePath>images\Backgrounds\cloud2.png</PackagePath>
+      <Modified>2012-11-09T17:08:51.355</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\images\Backgrounds\congrats.png">
+      <PackagePath>images\Backgrounds\congrats.png</PackagePath>
+      <Modified>2012-11-10T13:38:09.875</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\images\Backgrounds\defeat.png">
+      <PackagePath>images\Backgrounds\defeat.png</PackagePath>
+      <Modified>2012-11-09T17:08:51.480</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\images\Backgrounds\gamebg.png">
+      <PackagePath>images\Backgrounds\gamebg.png</PackagePath>
+      <Modified>2012-11-10T14:24:07.326</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\images\Backgrounds\gameplay_screen.png">
+      <PackagePath>images\Backgrounds\gameplay_screen.png</PackagePath>
+      <Modified>2012-11-09T17:08:52.371</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\images\Backgrounds\instructions.png">
+      <PackagePath>images\Backgrounds\instructions.png</PackagePath>
+      <Modified>2012-11-09T17:08:55.480</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\images\Backgrounds\mountain.png">
+      <PackagePath>images\Backgrounds\mountain.png</PackagePath>
+      <Modified>2012-11-09T17:08:52.168</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\images\Backgrounds\sky.png">
+      <PackagePath>images\Backgrounds\sky.png</PackagePath>
+      <Modified>2012-11-09T17:08:51.933</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\images\Backgrounds\title_screen 30x30.png">
+      <PackagePath>images\Backgrounds\title_screen 30x30.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-11-09T17:08:53.574</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\images\Backgrounds\title_screen 310x150.png">
+      <PackagePath>images\Backgrounds\title_screen 310x150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-11-09T17:08:52.933</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\images\Backgrounds\title_screen.png">
+      <PackagePath>images\Backgrounds\title_screen.png</PackagePath>
+      <Modified>2012-11-09T17:08:54.949</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\images\Backgrounds\title_screen150x150.png">
+      <PackagePath>images\Backgrounds\title_screen150x150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-11-09T17:08:53.137</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\images\Backgrounds\title_screen_620x300.png">
+      <PackagePath>images\Backgrounds\title_screen_620x300.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-11-09T17:09:01.231</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\images\Backgrounds\victory.png">
+      <PackagePath>images\Backgrounds\victory.png</PackagePath>
+      <Modified>2012-11-09T17:08:53.715</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\images\Catapults\Blue\blueDestroyed\blueCatapult_destroyed.png">
+      <PackagePath>images\Catapults\Blue\blueDestroyed\blueCatapult_destroyed.png</PackagePath>
+      <Modified>2012-11-09T17:09:00.996</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\images\Catapults\Blue\blueFire\blueCatapult_fire.png">
+      <PackagePath>images\Catapults\Blue\blueFire\blueCatapult_fire.png</PackagePath>
+      <Modified>2012-11-09T17:08:54.309</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\images\Catapults\Blue\blueIdle\blueIdle.png">
+      <PackagePath>images\Catapults\Blue\blueIdle\blueIdle.png</PackagePath>
+      <Modified>2012-11-09T17:08:54.309</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\images\Catapults\Blue\bluePullback\blueCatapult_Pullback.png">
+      <PackagePath>images\Catapults\Blue\bluePullback\blueCatapult_Pullback.png</PackagePath>
+      <Modified>2012-11-09T17:08:55.762</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\images\Catapults\Fire_Miss\fire_miss.png">
+      <PackagePath>images\Catapults\Fire_Miss\fire_miss.png</PackagePath>
+      <Modified>2012-11-09T17:08:54.949</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\images\Catapults\Hit_Smoke\smoke.png">
+      <PackagePath>images\Catapults\Hit_Smoke\smoke.png</PackagePath>
+      <Modified>2012-11-09T17:09:01.246</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\images\Catapults\Red\redDestroyed\redCatapult_destroyed.png">
+      <PackagePath>images\Catapults\Red\redDestroyed\redCatapult_destroyed.png</PackagePath>
+      <Modified>2012-11-09T17:08:58.184</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\images\Catapults\Red\redFire\redCatapult_fire.png">
+      <PackagePath>images\Catapults\Red\redFire\redCatapult_fire.png</PackagePath>
+      <Modified>2012-11-09T17:08:56.371</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\images\Catapults\Red\redIdle\redIdle.png">
+      <PackagePath>images\Catapults\Red\redIdle\redIdle.png</PackagePath>
+      <Modified>2012-11-09T17:08:58.856</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\images\Catapults\Red\redPullback\redCatapult_Pullback.png">
+      <PackagePath>images\Catapults\Red\redPullback\redCatapult_Pullback.png</PackagePath>
+      <Modified>2012-11-09T17:08:57.262</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\images\credits.png">
+      <PackagePath>images\credits.png</PackagePath>
+      <Modified>2012-11-10T08:43:30.215</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\images\fireguy.png">
+      <PackagePath>images\fireguy.png</PackagePath>
+      <Modified>2012-11-10T13:13:52.176</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\images\fireguybig.png">
+      <PackagePath>images\fireguybig.png</PackagePath>
+      <Modified>2012-11-10T12:44:06.937</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\images\fireguyfiring.png">
+      <PackagePath>images\fireguyfiring.png</PackagePath>
+      <Modified>2012-11-10T13:16:17.282</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\images\HUD\ammoType.png">
+      <PackagePath>images\HUD\ammoType.png</PackagePath>
+      <Modified>2012-11-09T17:08:57.684</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\images\HUD\Arrow.png">
+      <PackagePath>images\HUD\Arrow.png</PackagePath>
+      <Modified>2012-11-09T17:08:58.231</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\images\HUD\hudBackground.png">
+      <PackagePath>images\HUD\hudBackground.png</PackagePath>
+      <Modified>2012-11-09T17:08:58.496</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\images\HUD\windArrow.png">
+      <PackagePath>images\HUD\windArrow.png</PackagePath>
+      <Modified>2012-11-09T17:08:59.012</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\images\logo.png">
+      <PackagePath>images\logo.png</PackagePath>
+      <Modified>2012-11-09T17:08:50.996</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\images\menuentry.png">
+      <PackagePath>images\menuentry.png</PackagePath>
+      <Modified>2012-11-10T09:39:29.935</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\images\obstacles\cloud001.png">
+      <PackagePath>images\obstacles\cloud001.png</PackagePath>
+      <Modified>2012-11-10T10:14:20.828</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\images\obstacles\cloud002.png">
+      <PackagePath>images\obstacles\cloud002.png</PackagePath>
+      <Modified>2012-11-10T10:13:56.100</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\images\obstacles\cloud003.png">
+      <PackagePath>images\obstacles\cloud003.png</PackagePath>
+      <Modified>2012-11-10T10:13:36.765</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\images\obstacles\cloud004.png">
+      <PackagePath>images\obstacles\cloud004.png</PackagePath>
+      <Modified>2012-11-10T10:13:03.853</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\images\obstacles\cloud005.png">
+      <PackagePath>images\obstacles\cloud005.png</PackagePath>
+      <Modified>2012-11-10T10:10:59.688</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\images\obstacles\cloud006.png">
+      <PackagePath>images\obstacles\cloud006.png</PackagePath>
+      <Modified>2012-11-10T10:10:21.670</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\images\obstacles\cloud007.png">
+      <PackagePath>images\obstacles\cloud007.png</PackagePath>
+      <Modified>2012-11-10T10:10:00.179</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\images\obstacles\cloud008.png">
+      <PackagePath>images\obstacles\cloud008.png</PackagePath>
+      <Modified>2012-11-10T10:09:16.417</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\images\obstacles\cloud009.png">
+      <PackagePath>images\obstacles\cloud009.png</PackagePath>
+      <Modified>2012-11-10T10:08:55.542</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\images\obstacles\cloud010.png">
+      <PackagePath>images\obstacles\cloud010.png</PackagePath>
+      <Modified>2012-11-10T10:08:04.456</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\images\obstacles\cloud011.png">
+      <PackagePath>images\obstacles\cloud011.png</PackagePath>
+      <Modified>2012-11-10T10:06:07.482</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\images\obstacles\cloud012.png">
+      <PackagePath>images\obstacles\cloud012.png</PackagePath>
+      <Modified>2012-11-10T10:05:42.966</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\images\obstacles\cloud013.png">
+      <PackagePath>images\obstacles\cloud013.png</PackagePath>
+      <Modified>2012-11-10T10:05:31.740</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\images\obstacles\nemesis.png">
+      <PackagePath>images\obstacles\nemesis.png</PackagePath>
+      <Modified>2012-11-10T12:42:26.174</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\images\options.png">
+      <PackagePath>images\options.png</PackagePath>
+      <Modified>2012-11-10T09:40:05.547</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\images\play.png">
+      <PackagePath>images\play.png</PackagePath>
+      <Modified>2012-11-10T09:39:52.187</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\images\quit.png">
+      <PackagePath>images\quit.png</PackagePath>
+      <Modified>2012-11-10T09:40:06.594</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\images\smalllogo.png">
+      <PackagePath>images\smalllogo.png</PackagePath>
+      <Modified>2012-11-09T17:08:50.996</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\images\snowball.png">
+      <PackagePath>images\snowball.png</PackagePath>
+      <Modified>2012-10-19T23:28:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\images\splashscreen.png">
+      <PackagePath>images\splashscreen.png</PackagePath>
+      <Modified>2012-11-09T17:08:51.011</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\images\storelogo.png">
+      <PackagePath>images\storelogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-11-09T17:08:51.074</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\images\wind.png">
+      <PackagePath>images\wind.png</PackagePath>
+      <Modified>2012-11-10T08:43:31.400</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\images\Catapults\AnimationsDef.xml">
+      <PackagePath>images\Catapults\AnimationsDef.xml</PackagePath>
+      <Modified>2012-11-09T17:08:53.715</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\images\grass.jpg">
+      <PackagePath>images\grass.jpg</PackagePath>
+      <Modified>2012-11-09T17:08:54.434</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\js\CreateJS\easeljs-0.5.0.min.js">
+      <PackagePath>js\CreateJS\easeljs-0.5.0.min.js</PackagePath>
+      <Modified>2012-11-10T01:20:45.297</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\js\CreateJS\easeljs-NEXT.min.js">
+      <PackagePath>js\CreateJS\easeljs-NEXT.min.js</PackagePath>
+      <Modified>2012-11-09T17:09:04.965</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\js\CreateJS\preloadjs-NEXT.min.js">
+      <PackagePath>js\CreateJS\preloadjs-NEXT.min.js</PackagePath>
+      <Modified>2012-11-09T17:08:59.653</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+      <Modified>2012-11-10T14:37:16.929</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\js\entity.js">
+      <PackagePath>js\entity.js</PackagePath>
+      <Modified>2012-11-09T22:45:14.099</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\js\homePage.js">
+      <PackagePath>js\homePage.js</PackagePath>
+      <Modified>2012-11-10T08:43:31.548</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\js\navigator.js">
+      <PackagePath>js\navigator.js</PackagePath>
+      <Modified>2012-11-10T08:43:31.638</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\js\Obstacle.js">
+      <PackagePath>js\Obstacle.js</PackagePath>
+      <Modified>2012-11-09T22:56:49.687</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\sounds\BoulderHit.wav">
+      <PackagePath>sounds\BoulderHit.wav</PackagePath>
+      <Modified>2012-11-09T17:09:06.184</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\sounds\CatapultExplosion.wav">
+      <PackagePath>sounds\CatapultExplosion.wav</PackagePath>
+      <Modified>2012-11-09T17:09:06.825</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\sounds\CatapultFire.wav">
+      <PackagePath>sounds\CatapultFire.wav</PackagePath>
+      <Modified>2012-11-09T17:09:03.481</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\sounds\Lose.wav">
+      <PackagePath>sounds\Lose.wav</PackagePath>
+      <Modified>2012-11-09T17:09:08.137</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\sounds\RopeStretch.wav">
+      <PackagePath>sounds\RopeStretch.wav</PackagePath>
+      <Modified>2012-11-09T17:09:10.122</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\sounds\Win.wav">
+      <PackagePath>sounds\Win.wav</PackagePath>
+      <Modified>2012-11-09T17:09:10.091</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxim\Documents\WOWZApp\App2\App2\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2012-11-10T14:30:04.440</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\">
+      <Name>Microsoft.WinJS.1.0</Name>
+      <Version>1.0.8514.0</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.1.0, MinVersion=1.0.8514.0</FrameworkIdentity>
+      <AppxLocation>C:\Program Files\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\Microsoft.WinJS.1.0.appx</AppxLocation>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

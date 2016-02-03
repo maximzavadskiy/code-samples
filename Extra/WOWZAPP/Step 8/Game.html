@@ -1,0 +1,195 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+
+    <script>
+
+        (function () {
+            "use strict";
+
+            var canvas, ctx;
+            var frame = 0;
+
+            var sky, mountain, ball, face;
+            var yeti_sprite, zombie1_sprite, zombie2_sprite;
+
+            var zombies = new Array();
+            var balls = new Array();
+
+            var victory = false;
+
+            function init() {
+                canvas = document.getElementById('canvas');
+                ctx = canvas.getContext('2d');
+
+                preload();
+
+                addZombies();
+
+                setupInput();
+
+            }
+
+            function preload() {
+                var _assetsToLoad = 0;
+
+                var addImage = function (src) {
+                    var img = new Image();
+                    img.src = src;
+                    _assetsToLoad++
+                    img.addEventListener('load', function () {
+                        _assetsToLoad--;
+                    }, false);
+                    return img;
+                }
+
+                var checkResources = function () {
+                    if (_assetsToLoad == 0)
+                        draw();
+                    else
+                        setTimeout(checkResources, 200);
+                }
+
+                sky = addImage("assets/sky.png");
+                mountain = addImage("assets/mountain.png");
+                face = addImage("assets/face.png");
+                ball = addImage("assets/snowball.png");
+                yeti_sprite = addImage("assets/yetisprite.png");
+                zombie1_sprite = addImage("assets/zombie1_sprite.png");
+                zombie2_sprite = addImage("assets/zombie2_sprite.png");
+
+                checkResources();
+            }
+
+            function draw() {
+                frame += .1;
+
+                drawSky();
+                drawYeti();
+                drawMountain();
+                drawZombies();
+                drawBalls();
+
+                // check victory
+                if (zombies.length == 0) {
+                    winAudio.play();
+                    victory = true;
+                }
+
+                requestAnimationFrame(draw);
+            }
+
+            function drawSky() {
+                ctx.drawImage(sky, 0, 0);
+            }
+
+            function drawMountain() {
+                ctx.drawImage(mountain, 0, 0);
+            }
+
+            function addZombies() {
+                zombies.push({ x: 0, y: 550, direction: -1, sprite: zombie1_sprite });
+                zombies.push({ x: Math.random() * 1366, y: Math.random() * 500 + 200, direction: 1, sprite: zombie1_sprite });
+                zombies.push({ x: Math.random() * 1366, y: Math.random() * 500 + 200, direction: -1, sprite: zombie1_sprite });
+                zombies.push({ x: Math.random() * 1366, y: Math.random() * 500 + 200, direction: 1, sprite: zombie2_sprite });
+            }
+
+            function drawZombies() {
+                for (var i = 0; i < zombies.length; i++) {
+                    var sprite = zombies[i].sprite;
+
+                    ctx.drawImage(sprite,
+                        Math.floor(frame % 3) * sprite.width / 3, 0, sprite.width / 3, sprite.height,
+                       zombies[i].x, zombies[i].y, sprite.width / 3, sprite.height);
+
+                    zombies[i].x += 5 * zombies[i].direction;
+                    if (zombies[i].x < 0 || zombies[i].x > 1366)
+                        zombies[i].direction *= -1;
+                }
+            }
+
+            function drawYeti() {
+                //face
+                ctx.drawImage(face, pointerX - yeti_sprite.width / 2 + 187, 118);
+
+                //body 
+                if (victory)
+                    ctx.drawImage(yeti_sprite,
+                        0, Math.floor(frame % 7) * yeti_sprite.height / 7, yeti_sprite.width, yeti_sprite.height / 7,
+                        pointerX - yeti_sprite.width / 2, 0, yeti_sprite.width, yeti_sprite.height / 7);
+                else
+                    ctx.drawImage(yeti_sprite, 0, 0, yeti_sprite.width, yeti_sprite.height / 7,
+                        pointerX - yeti_sprite.width / 2, 0, yeti_sprite.width, yeti_sprite.height / 7);
+            }
+
+            function drawBalls() {
+                for (var i = 0; i < balls.length; i++) {
+                    ctx.drawImage(ball, balls[i].x, balls[i].y);
+
+                    //TODO: test collision
+                    if (testCollision(balls[i])) {
+                        //todo play audio 
+                        impactAudio.pause();
+                        impactAudio.currentTime = 0;
+                        impactAudio.play();
+                    }
+
+                    balls[i].y += 10;
+                }
+            }
+
+            function testCollision(ball) {
+                Array.prototype.remove = function (from, to) {
+                    var rest = this.slice((to || from) + 1 || this.length);
+                    this.length = from < 0 ? this.length + from : from;
+                    return this.push.apply(this, rest);
+                };
+
+                for (var a = 0; a < zombies.length; a++) {
+                    if ((Math.abs(zombies[a].x - ball.x) < 100) && (Math.abs(zombies[a].y - ball.y) < 100)) {
+                        // hit!
+                        zombies.remove(a);
+                        return true;
+                    }
+                }
+                return false;
+            }
+
+            var pointerX = 0;
+            function setupInput() {
+
+                document.body.addEventListener('MSPointerMove', function (ev) {
+                    pointerX = ev.clientX;
+                }, false);
+
+                document.body.addEventListener('MSPointerUp', function (ev) {
+                    balls.push({ x: pointerX, y: 0 });
+                }, false);
+            }
+
+            window.addEventListener("DOMContentLoaded", init, false);
+
+        })();
+
+    </script>
+    <style>
+        @-ms-viewport {
+            width: 1366px;
+            height: 768px;
+        }
+
+        body {
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+            -ms-touch-action: none;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="canvas" width="1366" height="768"></canvas>
+    <audio src="assets/impact.mp3" id="impactAudio" />
+    <audio src="assets/win.mp3" id="winAudio" />
+</body>
+</html>

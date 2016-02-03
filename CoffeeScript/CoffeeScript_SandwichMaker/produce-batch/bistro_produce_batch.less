@@ -1,0 +1,261 @@
+@import "bistro_common";
+@import "common";
+
+.bistro-confirmation-info { //for bootbox alert
+	font-size: @font-size-h5;
+	text-align: center;
+}
+
+.bistro {
+
+//######### COMMON ########
+	.step-no {
+		display: inline-block;
+		width: @column-width + @column-gutter;
+	}
+
+	.step-description {
+		display: inline-block;
+		
+	}
+
+	.batch-name-container {
+		padding-top: 1em;
+	}
+
+	header {
+		height: 6*@baseline;
+	}
+
+	main.produce-batch-page {
+		display: inline-block;
+		width: 100%;
+		margin-bottom: 3*@baseline; //to avoid last elements being hidden bu control bar
+	}
+
+	nav {
+		position: fixed;
+		bottom: 0%;
+		right: 0%;
+
+		display: block;
+		width: 100%;
+		height: 2*@baseline;
+
+		background-color: white;
+
+		border-top: 1px solid @color-secondary-2;	
+	}
+
+	.bottom-menu-bar {
+		padding-left: @column-gutter;
+		padding-right: @column-gutter;
+
+		height: 100%; //to avoid to shrink
+	}
+
+}
+
+//######### Step 1 ########
+.bistro {
+
+	main.produce-batch-page {
+
+		section:not(:first-child) {
+			margin-top: 2*@baseline;
+		}
+
+		section {
+
+				.day-range {
+					float: left; //to make fixed-fluid 2 column layout
+
+					width: @column-width;
+					margin-top: @baseline;
+					// margin-bottom: @baseline;
+				}
+
+				ul {
+					overflow: hidden; //to make fixed-fluid 2 column layout
+
+					margin: 0;
+					padding-left: @column-gutter;
+					border-left: 2px solid @color-primary-1; //border should belong to ul, not .day-range so it will extend if ul contains several rows
+
+					li {
+						display: inline-block;
+						vertical-align: top;
+
+						margin-right: @column-gutter;
+						margin-bottom: @column-gutter/2;
+						margin-top: @column-gutter/2;
+
+						padding: 10px;
+
+
+
+						width: @column-width;
+						height: 3*@baseline;
+
+						border: 1px solid @color-primary-2;
+						border-radius: 5px;
+
+
+						a {
+							color: inherit;
+						}
+
+						a:hover {
+							text-decoration: none;
+						}
+
+
+						.production-time {
+							height: @baseline;
+							margin: 0;
+							font-size: @font-size-h4;
+							//20px
+
+						}
+
+						.size {
+							height: @baseline*0.7;
+							margin: 0;
+							color: @color-secondary-1;
+							//15px
+						}
+
+						.name {
+							height: @baseline;
+							margin: 0;
+							font-size: small;
+							//15px
+						}
+					}
+
+					li:active {
+						background-color: #139BFF;
+					}
+				}
+			}
+	}
+}
+
+//######### Step 2 ########
+.bistro {
+	header {
+		.header-detailes {
+			//24px
+			.batch-info {
+				display: inline-block;
+				float: right;
+				// width: (@column-width + @column-gutter)*3;
+
+				.batch-day-time {
+					line-height: 50px;// copy line height of step title to align TODO make var
+				}
+
+				.batch-name {
+					display: block;
+					font-style: italic;
+				}
+			}
+		}
+		
+	}
+
+	main.produce-batch-page {
+		form {
+			.column-wrapper {
+				// display: inline-block;
+				// float: left;
+				// width: 33%;
+				// min-width: 3*@column-width;
+			}
+
+			max-width: (@column-width+@column-gutter)*5; //60%;
+
+			//TODO no marings on the left and right
+			// .column-wrapper:not(:first-child):not(:last-child) {
+
+			// }
+
+			fieldset.products-group-section {
+				//margin-right: @column-gutter;
+				//margin-right: 1.5*@column-gutter;
+				margin-bottom: @baseline*2;
+				-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+				legend {
+					border-bottom: 2px solid @color-primary-1;
+				}
+
+				//product set-up
+				fieldset:not(:last-child) {
+					border-bottom: 1px solid @color-secondary-2;
+				}
+
+				fieldset.product-controls {
+					height: @baseline*2;
+					margin-left: @column-gutter/2;
+					margin-right: @column-gutter/2;
+
+					-webkit-tap-highlight-color: rgba(0, 0, 0, 0); //disable distracting gray hightlights when user clicks on white space
+
+					> * {
+						display: inline-block;
+						margin: 0;
+						.vertical-center();
+					}
+
+					.chbx-product-include {
+						width: 17.5px; //bigger checkbox for ipad mini
+						height: 17.5px;
+						margin-right: @column-gutter;
+					}
+
+					.product-name {
+						//TODO very dirty method to force it to become multiline if name is too big
+						font-size: @font-size-h5;
+						max-width: 58%;
+						width: 58%;
+						-webkit-tap-highlight-color: fade(@color-secondary-1, 60%);
+						// padding-left: @column-gutter;
+						// -webkit-user-select: none;
+					}
+
+					.product-name.disabled {
+						color: @color-secondary-1;	
+					}
+
+					.edit-batch-product-amount {
+						font-size: @font-size-h5;
+						padding: 7px;
+						width: 35px;
+					}
+
+					button {
+						padding-top: 7px;
+						padding-bottom:	7px;
+						padding-right: 15px;
+						padding-left: 15px;
+					}
+				}
+
+
+
+			}
+		}
+	}
+
+	nav {
+		//15px
+		.total-amount {
+			margin-right: @column-gutter;
+			b {
+				font-size: @font-size-h5; //one of bootstraps standart font-size: 
+				font-weight: normal;
+			}
+		}
+	}
+}

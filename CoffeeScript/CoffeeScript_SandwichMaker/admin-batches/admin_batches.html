@@ -1,0 +1,155 @@
+<template name='admin_batches'>
+	<div class='admin-content'>
+		{{#unless isEditPage}}
+			<button id='btn-goto-create-new-batch' class='btn btn-primary'> Neue Batch </button> 
+			<div class='products-container item-list-container'>	
+				{{#each batchesByDays}}
+					{{#with firstGeneratedGroup}}
+						<h1 class='admin-main-section batch-main-section-title'> Andere </h1>
+					{{/with}}
+					<h2 class=''> {{#if days}} {{days}} {{else}} Keine Produktionstage gesetz {{/if}}</h2>
+					<div class='item-list-container batch-item-day-group'>
+					    {{#each batches}}
+						    <div class='admin-item-tile admin-batch-tile'>
+						    	<div class='center-text-container admin-production-time-container'>
+						    		<p class='batch-name admin-item-tile-name' > {{productionTime.h}}.00 </p>
+						  		</div>
+						  		<div class='separater'> </div>
+						  		<p class='admin-item-tile-name admin-batch-size'> mit {{batchSize}} Stk </p>
+						    	
+						  		<div class='admin-batch-tile-bottom'>
+							    	<div class='center-text-container top-align admin-item-batch-name-container'>
+							    		<p class='admin-item-tile-name' > {{ name }} </p>
+							  		</div>
+
+							  		<!-- <div class='buttons-container'> -->
+										<button class='btn-tile-edit btn-edit btn btn-small'> <i class="icon-edit"></i></button>
+										<button class='btn-tile-delete btn-delete btn btn-small btn-danger'><i class="icon-trash"></i></button>
+									<!-- </div> -->
+								</div>
+							</div>
+				    	{{/each}}
+					</div>
+				{{/each}}
+			</div>
+		{{/unless}}
+
+		{{#if isEditPage}}
+			<div class='edit-page-container'>
+				{{#if isCreatingNew}}
+					<h1> Neue Batch </h1>
+				{{else}} <!-- Editing exisiting one -->
+					<h1> Batch bearbeiten </h1>
+				{{/if}}
+
+				<div class='edit-form-container form-horizontal'>
+					{{#with currentBatch}}
+						<div class='control-group'>
+							<label for='input-production-time' class='control-label' required> Produktionszeitpunkt </label> 
+
+							<div class='controls'> 
+								<select id='input-production-time' class='input-small' autofocus> 
+									<option value='6' {{selectedIfTime '6'}}>   6  Uhr </option>
+									<option value='10' {{selectedIfTime '10'}}> 10 Uhr </option>
+									<option value='12' {{selectedIfTime '12'}}> 12 Uhr </option>
+									<option value='14' {{selectedIfTime '14'}}> 14 Uhr </option>
+									<option value='18' {{selectedIfTime '18'}}> 18 Uhr </option>
+								</select> 
+							</div>
+						</div>
+
+						<div class='control-group'>
+							<label for='input-weekdays' class='control-label'> Produktionstage </label>
+							<div class='controls' id='input-weekdays'>
+								<label class='checkbox'>
+									<input type='checkbox' value='mon' {{checkedIfDay 'mon'}} >
+									Montag
+								</label>
+
+								<label class='checkbox'>
+									<input type='checkbox' value='tue' {{checkedIfDay 'tue'}}>
+									Dienstag
+								</label>
+
+								<label class='checkbox'>
+									<input type='checkbox' value='wed' {{checkedIfDay 'wed'}}>
+									Mittwoch
+								</label>
+
+								<label class='checkbox'>
+									<input type='checkbox' value='thu' {{checkedIfDay 'thu'}}>
+									Donnerstag
+								</label>
+
+								<label class='checkbox'>
+									<input type='checkbox' value='fri' {{checkedIfDay 'fri'}}>
+									Freitag
+								</label>
+
+								<label class='checkbox'>
+									<input type='checkbox' value='sat' {{checkedIfDay 'sat'}}>
+									Samstag
+								</label>
+
+								<label class='checkbox'>
+									<input type='checkbox' value='sun' {{checkedIfDay 'sun'}}>
+									Sonntag
+								</label>
+							</div>
+						</div>
+
+
+						<div class='control-group'>
+							<label for='input-batch-name' class='control-label' required> Name (wenn Sie wollen) </label> 
+
+							<div class='controls'> 
+								<input id='input-batch-name' class='input-xlarge' type='text' value = '{{name}}'/>
+							</div>
+						</div>
+
+						<div class='control-group'>
+							<label for='products' class='control-label' required> Produkte </label> 
+
+							<div class='controls' id='products'> 
+								{{#each productGroupsByLifetime 'allProducts' }}
+									<div class='admin-batch-edit-time-group'>
+										<h1 class='checkbox'> {{lifetimeHours}}h </h1>
+
+										<div class='batch-product-group'>
+											{{#each batchProductsWithLifetime lifetimeHours}}
+												<div class='batch-product-entries'>
+													<select class='admin-batch-edit-product-name'> 
+														<option value="default">Bitte wählen Sie</option>
+														{{#each ../allProducts}}
+															<option value='{{_id}}' {{selectedIfEquals _id ../productId}} > {{name}}</option>
+														{{/each}}
+													</select>
+													<span> X </span>
+													<input type='number' class='edit-batch-product-amount input-small' value='{{productAmount}}' id='{{_id}}' >
+													<button class='btn-exclude btn btn-small btn-danger'> Löschen </button>
+												</div>
+											{{/each}}
+
+											<button class='btn btn-add'> Hinzufügen </button>
+										</div>
+									</div>
+
+								{{/each}}
+							</div>
+						</div>
+					{{/with}}
+
+					<div class='edit-form-actions batch-edit-form-actions'>
+							{{#unless isSavingBatch}}
+								<button id='btn-save' class='btn btn-primary'> Speichern </button>
+							{{/unless}}
+							{{#if isSavingBatch}}
+								<span class='is-saving-status'> Wird gespeichert...</span>
+							{{/if}}
+						<button id='btn-cancel-edit' class='btn'> Abrechen </button>
+					</div>
+				</div>
+			</div>
+		{{/if}}
+	</div>
+</template>
